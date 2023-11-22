@@ -9,8 +9,8 @@ import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Login from "./pages/login/Login.jsx";
 import Navigation from "./components/navigation/Navigation.jsx";
-import Profile from "./pages/Profile/Profile.jsx";
-import UserGameSessions from "./pages/UserGameSessions/UserGameSessions.jsx";
+import Profile from "./pages/profile/Profile.jsx";
+import UserGameSessions from "./pages/userGameSessions/UserGameSessions.jsx";
 
 function App() {
 
