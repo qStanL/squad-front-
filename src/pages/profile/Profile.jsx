@@ -4,7 +4,6 @@ import {getUser} from "../../store/slices/userSlice.js";
 import {reset} from "../../store/slices/authSlice.js";
 import Loading from "../../components/loading/Loading.jsx";
 import {useNavigate} from "react-router-dom";
-import "./Profile.scss";
 import UserInfo from "../../components/userInfo/UserInfo.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPen} from "@fortawesome/free-solid-svg-icons";
