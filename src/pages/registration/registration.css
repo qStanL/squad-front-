@@ -1,0 +1,91 @@
+.registration-form {
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registration-form h2 {
+  margin: 0;
+  text-align: center;
+}
+.registration-form .form-passwords, .registration-form .form-add-vals {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.registration-form .form-passwords .form-group, .registration-form .form-add-vals .form-group {
+  margin: 5px;
+}
+@media (max-width: 768px) {
+  .registration-form .form-passwords, .registration-form .form-add-vals {
+    flex-direction: column;
+  }
+  .registration-form .form-passwords .form-group, .registration-form .form-add-vals .form-group {
+    margin: 0;
+  }
+}
+.registration-form .form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.registration-form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.registration-form .form-group label.required::after {
+  content: "*";
+  color: red;
+  margin-left: 0.25rem;
+}
+.registration-form .form-group .form-control {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.registration-form .form-group .error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+.registration-form .form-group .form-control--select {
+  position: relative;
+}
+.registration-form .form-group .form-control--select:after {
+  content: "\\25BC";
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.registration-form .form-group .form-control--textarea {
+  resize: none;
+  width: 100%;
+  min-height: 80px;
+}
+.registration-form .btn-primary {
+  width: 100%;
+  padding: 0.75rem;
+  color: #fff;
+  background-color: #7d4cdb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 1.25rem;
+}
+.registration-form .btn-primary:hover {
+  background-color: #6b3fa0;
+}
+.registration-form p {
+  font-size: 1.25rem;
+  align-self: end;
+}
+
+/*# sourceMappingURL=registration.css.map */

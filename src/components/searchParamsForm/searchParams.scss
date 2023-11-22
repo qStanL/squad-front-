@@ -1,0 +1,93 @@
+.form-container {
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  @media (max-width: 768px) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+input {
+  width: 100%;
+}
+
+.minSkillLevel {
+  display: flex;
+  flex-direction: column;
+}
+
+.minSkillLevel__main {
+  display: flex;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+input[type='range'] {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  @media (max-width: 768px) {
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+input[type='range'] {
+  margin-right: 10px;
+}
+
+.minSkillLevel_number {
+  width: 35px;
+  text-align: center;
+}
+
+.game-platforms-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.range-value {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button[type='submit'], .btn-reset {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background-color: red;
+}
+
+button[type='submit']:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  top: 0;
+  font-family: "Roboto Light", serif;
+  background-color: #333;
+  color: white;
+
+  .container {
+    margin: 0 auto;
+    max-width: 1312px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo, &__user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    .logo {
+      height: 80px;
+    }
+
+    .app_name {
+      font-weight: bold;
+      font-size: 40px;
+      margin: 0 10px 0 10px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  &__user-info {
+    .profile-icon {
+      font-size: 40px;
+      transition: color 0.2s ease-in-out;
+      a{
+        color: white;
+      }
+    }
+
+    .user-info_left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 10px;
+    }
+
+    .user-name {
+      font-size: 30px;
+      margin: 0;
+    }
+
+    .login-link a, .btn-logout {
+      font-weight: bold;
+      font-size: 20px;
+      transition: color 0.2s ease-in-out;
+      color: white;
+    }
+
+    .login-link a:hover, .profile-icon a:hover, .btn-logout {
+      color: aqua;
+    }
+
+    .btn-logout {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+}

@@ -1,0 +1,27 @@
+.page-selector {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.page-selector li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.page-selector li:hover {
+  background-color: lightgray;
+}
+.page-selector li.active {
+  background-color: gray;
+  color: white;
+}
+
+/*# sourceMappingURL=pageSelector.css.map */

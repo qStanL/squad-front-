@@ -1,0 +1,9 @@
+.registration-form {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.registration-form .form-control--textarea {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=editUserForm.css.map */

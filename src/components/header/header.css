@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0;
+  font-family: "Roboto Light", serif;
+  background-color: #333;
+  color: white;
+}
+.header .container {
+  margin: 0 auto;
+  max-width: 1312px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo, .header__user-info {
+  display: flex;
+  align-items: center;
+}
+.header__logo .logo {
+  height: 80px;
+}
+.header__logo .app_name {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 10px 0 10px;
+}
+@media (max-width: 768px) {
+  .header__logo .app_name {
+    display: none;
+  }
+}
+.header__user-info .profile-icon {
+  font-size: 40px;
+  transition: color 0.2s ease-in-out;
+}
+.header__user-info .profile-icon a {
+  color: white;
+}
+.header__user-info .user-info_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.header__user-info .user-name {
+  font-size: 30px;
+  margin: 0;
+}
+.header__user-info .login-link a, .header__user-info .btn-logout {
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s ease-in-out;
+  color: white;
+}
+.header__user-info .login-link a:hover, .header__user-info .profile-icon a:hover, .header__user-info .btn-logout {
+  color: aqua;
+}
+.header__user-info .btn-logout {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=header.css.map */

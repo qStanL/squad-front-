@@ -1,0 +1,72 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form .btn-close-modal {
+  margin: 5px;
+  align-self: end;
+  justify-self: center;
+  cursor: pointer;
+  color: red;
+  transition: color 0.3s ease;
+  font-size: 35px;
+}
+.modal-form .btn-close-modal:hover {
+  color: mediumorchid;
+}
+.modal-form h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.btn-delete {
+  cursor: pointer;
+  color: red;
+  transition: color 0.3s ease;
+  font-size: 35px;
+}
+.btn-delete:hover {
+  color: mediumorchid;
+}
+
+.btn-open-form {
+  margin: 5px;
+  align-self: center;
+  max-width: 300px;
+  padding: 0.75rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #7d4cdb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn-open-form:hover {
+  background-color: #6b3fa0;
+}
+
+.btn-plus {
+  margin-left: 5px;
+}
+
+.game-session-page {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-sessions__main {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 800px) 1fr;
+}
+@media (max-width: 768px) {
+  .game-sessions__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=gameSessions.css.map */

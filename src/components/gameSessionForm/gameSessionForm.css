@@ -1,0 +1,61 @@
+.new-game-session-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.new-game-session-form label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.new-game-session-form input,
+.new-game-session-form select,
+.new-game-session-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.new-game-session-form .error {
+  color: red;
+  font-size: 0.875rem;
+}
+.new-game-session-form button[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.new-game-session-form button[type=submit]:hover {
+  background-color: #0056b3;
+  align-self: center;
+  justify-self: center;
+}
+.new-game-session-form .game-platforms-container {
+  margin-bottom: 10px;
+}
+.new-game-session-form .game-platforms-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.new-game-session-form .game-platforms-checkboxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.new-game-session-form .checkbox-label {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .new-game-session-form {
+    max-width: 300px;
+  }
+}
+
+/*# sourceMappingURL=gameSessionForm.css.map */

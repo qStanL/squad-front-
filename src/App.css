@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.App main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.App input {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=App.css.map */
